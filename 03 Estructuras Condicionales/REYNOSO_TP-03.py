@@ -1,5 +1,5 @@
-# 1) Escribir un programa que solicite la edad del usuario. Si el usuario es mayor de 18 anos,
-# deberá mostrar un mensaje en pantalla que diga “Es mayor de edad”
+ï»¿# 1) Escribir un programa que solicite la edad del usuario. Si el usuario es mayor de 18 anos,
+# deber mostrar un mensaje en pantalla que diga Es mayor de edad
 def es_mayor_de_edad():
     edad = int(input("Ingrese su edad: "))
     if edad >= 18:
@@ -7,9 +7,9 @@ def es_mayor_de_edad():
     else:
         print("No es mayor de edad")
 
-# 2) Escribir un programa que solicite su nota al usuario. Si la nota es mayor o igual a 6, deberá
-# mostrar por pantalla un mensaje que diga “Aprobado”; en caso contrario deberá mostrar el
-# mensaje “Desaprobado”
+# 2) Escribir un programa que solicite su nota al usuario. Si la nota es mayor o igual a 6, deber
+# mostrar por pantalla un mensaje que diga Aprobado; en caso contrario deber mostrar el
+# mensaje Desaprobado
 def aprobado_o_desaprobado():
     nota = float(input("Ingrese su nota: "))
     if nota >= 6:
@@ -17,10 +17,10 @@ def aprobado_o_desaprobado():
     else:
         print("Desaprobado")
 
-# 3) Escribir un programa que permita ingresar solo números pares. Si el usuario ingresa un
-# número par, imprimir por en pantalla el mensaje "Ha ingresado un número par"; en caso
-# contrario, imprimir por pantalla "Por favor, ingrese un número par". Nota: investigar el uso del
-# operador de módulo (%) en Python para evaluar si un número es par o impar.
+# 3) Escribir un programa que permita ingresar solo nmeros pares. Si el usuario ingresa un
+# nmero par, imprimir por en pantalla el mensaje "Ha ingresado un nmero par"; en caso
+# contrario, imprimir por pantalla "Por favor, ingrese un nmero par". Nota: investigar el uso del
+# operador de mdulo (%) en Python para evaluar si un nmero es par o impar.
 def numero_par():
     numero = int(input("Ingrese un numero par: "))
     if numero % 2 == 0:
@@ -28,8 +28,8 @@ def numero_par():
     else:
         print("Por favor, ingrese un numero par")
 
-# 4) Escribir un programa que solicite al usuario su edad e imprima por pantalla a cuál de las
-# siguientes categorías pertenece:
+# 4) Escribir un programa que solicite al usuario su edad e imprima por pantalla a cul de las
+# siguientes categoras pertenece:
 # Nino/a: menor de 12 anos.
 # Adolescente: mayor o igual que 12 anos y menor que 18 anos.
 # Adulto/a joven: mayor o igual que 18 anos y menor que 30 anos.
@@ -49,7 +49,7 @@ def categoria_segun_edad():
 # (incluyendo 8 y 14). Si el usuario ingresa una contrasena de longitud adecuada, imprimir por en
 # pantalla el mensaje "Ha ingresado una contrasena correcta"; en caso contrario, imprimir por
 # pantalla "Por favor, ingrese una contrasena de entre 8 y 14 caracteres". Nota: investigue el uso
-# de la función len() en Python para evaluar la cantidad de elementos que tiene un iterable tal
+# de la funcin len() en Python para evaluar la cantidad de elementos que tiene un iterable tal
 # como una lista o un string.
 def contrasena_correcta():
     contrasena = input("Ingrese una contrasena de entre 8 y 14 caracteres: ")
@@ -81,8 +81,8 @@ def sesgo():
         print("No hay sesgo")
 
 # 7) Escribir un programa que solicite una frase o palabra al usuario. Si el string ingresado
-# termina con vocal, anadir un signo de exclamación al final e imprimir el string resultante por
-# pantalla; en caso contrario, dejar el string tal cual lo ingresó el usuario e imprimirlo por
+# termina con vocal, anadir un signo de exclamacin al final e imprimir el string resultante por
+# pantalla; en caso contrario, dejar el string tal cual lo ingres el usuario e imprimirlo por
 # pantalla.
 def agregar_signo():
     palabra = input("Ingrese una palabra: ")
@@ -91,14 +91,14 @@ def agregar_signo():
     else:
         print(palabra)
 
-# 8) Escribir un programa que solicite al usuario que ingrese su nombre y el número 1, 2 o 3
-# dependiendo de la opción que desee:
-# 1. Si quiere su nombre en mayúsculas. Por ejemplo: PEDRO.
-# 2. Si quiere su nombre en minúsculas. Por ejemplo: pedro.
-# 3. Si quiere su nombre con la primera letra mayúscula. Por ejemplo: Pedro.
-# El programa debe transformar el nombre ingresado de acuerdo a la opción seleccionada por el
+# 8) Escribir un programa que solicite al usuario que ingrese su nombre y el nmero 1, 2 o 3
+# dependiendo de la opcin que desee:
+# 1. Si quiere su nombre en maysculas. Por ejemplo: PEDRO.
+# 2. Si quiere su nombre en minsculas. Por ejemplo: pedro.
+# 3. Si quiere su nombre con la primera letra mayscula. Por ejemplo: Pedro.
+# El programa debe transformar el nombre ingresado de acuerdo a la opcin seleccionada por el
 # usuario e imprimir el resultado por pantalla. Nota: investigue uso de las funciones upper(),
-# lower() y title() de Python para convertir entre mayúsculas y minúsculas.
+# lower() y title() de Python para convertir entre maysculas y minsculas.
 def transformar_nombre():
     nombre = input("Ingrese su nombre: ")
     opcion = int(
@@ -115,14 +115,14 @@ def transformar_nombre():
         print("Opcion invalida")
 
 # 9) Escribir un programa que pida al usuario la magnitud de un terremoto, clasifique la
-# magnitud en una de las siguientes categorías según la escala de Richter e imprima el resultado
+# magnitud en una de las siguientes categoras segn la escala de Richter e imprima el resultado
 # por pantalla:
 #  Menor que 3: "Muy leve" (imperceptible).
 #  Mayor o igual que 3 y menor que 4: "Leve" (ligeramente perceptible).
 #  Mayor o igual que 4 y menor que 5: "Moderado" (sentido por personas, pero
 # generalmente no causa danos).
 #  Mayor o igual que 5 y menor que 6: "Fuerte" (puede causar danos en estructuras
-# débiles).
+# dbiles).
 #  Mayor o igual que 6 y menor que 7: "Muy Fuerte" (puede causar danos significativos).
 #  Mayor o igual que 7: "Extremo" (puede causar graves danos a gran escala).
 def magnitud_terremoto():
@@ -140,8 +140,8 @@ def magnitud_terremoto():
     else:
         print("Extremo")
 
-# 10) Escribir un programa que pregunte al usuario en cuál hemisferio se encuentra (N/S), qué mes
-# del ano es y qué día es. El programa deberá utilizar esa información para imprimir por pantalla
+# 10) Escribir un programa que pregunte al usuario en cul hemisferio se encuentra (N/S), qu mes
+# del ano es y quÃ© dÃ­a es. El programa deber utilizar esa informacin para imprimir por pantalla
 # si el usuario se encuentra en otono, invierno, primavera o verano.
 from datetime import datetime
 
