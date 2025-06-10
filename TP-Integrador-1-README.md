@@ -2,6 +2,8 @@
 
 Este proyecto es una simulación de gestión de estudiantes que permite generar datos aleatorios de estudiantes, ordenarlos por calificación usando distintos algoritmos, y realizar búsquedas por DNI y nota. Es ideal como práctica de programación en Python para materias iniciales de la Tecnicatura Universitaria en Programación a Distancia (UTN).
 
+[Link al video explicativo en Youtube](https://youtu.be/hyO6WD7E_ps?si=182Z1ymdOzMp5BPa)
+
 ## Funcionalidades
 
 - **Generación de estudiantes:** Crea una lista de estudiantes con nombre, apellido, DNI y calificación aleatorios usando la librería Faker.
